@@ -1,0 +1,79 @@
+.navbar {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  height: 80px;
+}
+
+.navbar_leftSection {
+  grid-column: 1/2;
+  padding-left: 15px;
+}
+
+.navbar_rightSection {
+  grid-column: 3/4;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+}
+
+.navbar_categories {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin-left: 0;
+}
+
+.navbar_categories ul {
+  outline: none;
+  border: none;
+}
+
+.navbar_categories li {
+  list-style-type: none;
+  margin-right: 30px;
+  border: none;
+  outline: none;
+}
+
+.navbar_categories li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbar_logo {
+  grid-column: 2/3;
+  align-self: center;
+  justify-self: center;
+  width: 41px;
+  height: 41px;
+}
+
+.navbar_shoppingCart {
+  display: flex;
+  align-self: center;
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.navbar_separationDiv {
+  width: 8px;
+}
+
+.exchange_section {
+  border: solid red 3px;
+  display: flex;
+  flex-direction: row;
+}
+
+.exchange_div {
+  display: flex;
+  flex-direction: column;
+  height: 60px;
+  overflow: scroll;
+}
+.exchange_p {
+  margin-right: 20px;
+}

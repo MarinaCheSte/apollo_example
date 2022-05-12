@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+}
+
+.app_container {
+  max-width: 1340px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
